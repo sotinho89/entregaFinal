@@ -2,4 +2,19 @@ body {
   background-color: aliceblue;
 }
 
+@media screen and (min-width: 900px) {
+  body {
+    display: grid;
+    display: flex;
+    border: 2px solid white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+  }
+}
+
 /*# sourceMappingURL=stilo.css.map */
